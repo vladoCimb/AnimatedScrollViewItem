@@ -19,9 +19,9 @@ class HomePage extends StatelessWidget {
     return const Scaffold(
       body: SafeArea(
         bottom: false,
-        child: AnimatedListView(),
+        // child: AnimatedListView(),
         // child: AnimatedGridView(),
-        // child: AnimatedHorizontalListView(),
+        child: AnimatedHorizontalListView(),
       ),
     );
   }
